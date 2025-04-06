@@ -8,10 +8,10 @@ down:
 	docker-compose down
 
 shell:
-	docker-compose run rust-template /bin/sh
+	docker-compose run rust-rsa-replacer /bin/sh
 
 access:
-	docker-compose exec -it rust-template /bin/sh
+	docker-compose exec -it rust-rsa-replacer /bin/sh
 
 add:
-	docker-compose run rust-img-cropper cargo add ${package}
+	docker-compose run rust-rsa-replacer cargo add ${package}

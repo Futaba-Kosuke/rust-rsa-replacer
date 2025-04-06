@@ -1,9 +1,9 @@
 services:
-  rust-template:
-    container_name: rust-template
+  rust-rsa-replacer:
+    container_name: rust-rsa-replacer
     build: .
     volumes:
-      - .:/rust/tutorial
+      - .:/rust/rsa-replacer
     command: cargo run
     tty: true
     environment:

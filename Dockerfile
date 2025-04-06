@@ -1,7 +1,7 @@
 FROM ubuntu:24.10
 
-RUN mkdir -p /rust/tutorial
-WORKDIR /rust/tutorial
+RUN mkdir -p /rust/rsa-replacer
+WORKDIR /rust/rsa-replacer
 
 RUN apt update \
 && apt install -y curl gcc
