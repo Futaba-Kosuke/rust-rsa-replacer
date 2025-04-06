@@ -12,3 +12,6 @@ shell:
 
 access:
 	docker-compose exec -it rust-template /bin/sh
+
+add:
+	docker-compose run rust-img-cropper cargo add ${package}
